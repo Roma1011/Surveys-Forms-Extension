@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Google surveys & forms",
+    "version": "0.0.1",
+    "description": "My Desc here",
+    "icons": {
+        "1": "./assets/completed-task.png"
+    },
+    "action": {
+        "default_popup":"./assets/html/popup.html",
+        "default_icon": {
+            "1": "./assets/completed-task.png"
+        }
+    },
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}
